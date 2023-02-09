@@ -16,6 +16,8 @@ https://github.com/mirai-mirai/レポジトリ/
 
 https://github.com/リポジトリ/settings
 
+プライベートリポジトリはPagesを使えないらしいのでpublicに変更しておく
+
 pagesでブランチをデフォルトに変更する
 
 docsフォルダしか公開できない
@@ -25,4 +27,11 @@ docsフォルダしか公開できない
 そうすればビルドしたら自動的に公開できる
 
 ビルドの度にdocsフォルダにコピーすればよいか
+
+あとは、/assets/を assets/に変更する必要がある。
+でも、デフォルトルートを変更すればいけるか？？
+
+<base href="https://mirai-mirai.github.io/20230204_ImageTrimmer/">
+
+vue-routerでトリムツールと推論ページを統合したい
 
