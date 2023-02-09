@@ -9,9 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@mediapipe/face_detection": "^0.4.1646425229",
+    "@tensorflow-models/face-detection": "^1.0.1",
+    "@tensorflow/tfjs-backend-webgl": "^4.2.0",
+    "@tensorflow/tfjs-converter": "^4.2.0",
+    "@tensorflow/tfjs-core": "^4.2.0",
+    "@types/file-saver": "^2.0.5",
     "@vitejs/plugin-vue": "^4.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
