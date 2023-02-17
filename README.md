@@ -1,1 +1,5 @@
-## ImageTrimmer
+# ImageTrimmer
+
+## 概要
+ドロップした画像を顔や口元をトリミングしてZIP圧縮してダウンロードできます。
+
