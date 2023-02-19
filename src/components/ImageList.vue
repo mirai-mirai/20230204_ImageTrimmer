@@ -9,6 +9,7 @@
 
 
 
+
 import JSZip from 'jszip';
 import saveAs from 'file-saver';
 
@@ -138,14 +139,14 @@ const openTry = () => {
     <div class="header">
       <div class="titleText">Image Trimmer</div>
       <button @click="resetImage">Reset</button>
-      <button @click="trimImage('face')">TrimFace</button>
-      <button @click="trimImage('mouth')">TrimMouth</button>
       Size:
       <select v-model="size">
         <option value="96">96x96</option>
         <option value="224">224x224</option>
         <option value="0">Original</option>
       </select>
+      <button @click="trimImage('face')">TrimFace</button>
+      <button @click="trimImage('mouth')">TrimMouth</button>
       <button @click="download">Download</button>
     </div>
     <br />
